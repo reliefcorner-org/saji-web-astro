@@ -1,0 +1,67 @@
+# Node modules
+node_modules/
+
+# Build output
+/dist/
+/build/
+/.astro/
+/.output/
+/public/build/
+
+# Astro & framework caches
+/.cache/
+.cache/
+.cache/astro/
+
+# Vercel / Netlify / static hosts
+/.vercel/
+/.vercel/output/
+/.netlify/
+
+# Environment files
+.env
+.env.*.local
+.env.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Test coverage
+coverage/
+coverage/
+
+# Misc
+*.tgz
+*.cache
+.sass-cache/
+.pnpm-store/
+
+# Lockfiles sometimes kept, but ignore if you use lockfile in CI only
+# package-lock.json
+
+# Local runtime files
+*.local
+
+# JetBrains
+/.idea/
+
+# Mac
+.DS_Store
+
+# End of file
